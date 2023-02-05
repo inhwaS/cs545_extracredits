@@ -18,8 +18,8 @@ public class ExtraCredit1 {
             }
         }
 
-        /* Running time for the algorithms: O(n^2) */
         return cnt;
+        /* Running time for the algorithms: O(n^2) */
     }
 
 
@@ -58,9 +58,9 @@ public class ExtraCredit1 {
             rtnVal.append(s1).append(" ");
         }
 
-        /* Running time for the algorithms: O(n) */
         // We have to remove blank space at the end
         return rtnVal.toString().substring(0, rtnVal.length()-1);
+        /* Running time for the algorithms: O(n) */
     }
 
     /**
@@ -69,22 +69,24 @@ public class ExtraCredit1 {
      */
     public String[] sortPeople(String[] names, int[] heights) {
         HashMap<Integer, String> hm = new HashMap<>();
-        List<Integer> hs = new ArrayList<>();
 
+        // Make a hashMap to pair name & height
+        for (int i = 0 ; i < heights.length; i++) {
+            hm.put(heights[i], names[i]);
+        }
+
+        // Sort heights by descending order
+        Arrays.sort(heights);
+
+        // By descending order of height, make return array
+        String[] rtn = new String[names.length];
         int idx = 0;
-        for (String name : names) {
-            hm.put(heights[idx], name);
-            hs.add(idx, heights[idx]);
+        for(int i = heights.length -1 ; i >= 0; i--){
+            rtn[idx] = hm.get(heights[i]);
             idx++;
         }
 
-        Collections.sort(hs, Collections.reverseOrder());
-
-        String[] rtn = new String[names.length];
-        for(int i = 0 ; i < hs.size(); i++){
-            rtn[i] = hm.get(hs.get(i));
-        }
-
         return rtn;
+        /* Running time for the algorithms: O(n) */
     }
 }
