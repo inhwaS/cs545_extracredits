@@ -8,6 +8,6 @@
 <br/>
 
 <h1>LeetCode Status</h1>
-<p>
+<iframe>
 ![LeetCode Stats](https://leetcard.jacoblin.cool/soninhwa94?theme=light&font=Exo%202)
-  </p>
+</iframe>
