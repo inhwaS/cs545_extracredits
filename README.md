@@ -1,13 +1,13 @@
 <h1>💻 CS545 Extra Credit</h1>
 <h2>📚 <a href="https://usfca.instructure.com/courses/1611772/assignments/7291128">Extra credit 1: Leet Code Problems</a></h2>
 <ol>
-  <li>1351. Count Negative Numbers in a Sorted Matrix</li>
-  <li>1859. Sorting the Sentence</li>
-  <li>2418. Sort the People</li>
+  <li><a href="https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/">1351.</a> Count Negative Numbers in a Sorted Matrix</li>
+  <li><a href="https://leetcode.com/problems/sorting-the-sentence/">1859.</a> Sorting the Sentence</li>
+  <li><a href="https://leetcode.com/problems/sort-the-people/">2418.</a> Sort the People</li>
 </ol>
 <br/>
 
 <h1>LeetCode Status</h1>
-<iframe>
-![LeetCode Stats](https://leetcard.jacoblin.cool/soninhwa94?theme=light&font=Exo%202)
-</iframe>
+<div>
+    <img id="preview" src="https://leetcard.jacoblin.cool/soninhwa94?theme=light&font=Fira%20Code">
+</div>
