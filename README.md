@@ -1,5 +1,5 @@
-<h1>CS545 Extra Credit</h1>
-<h2>Extra credit 1: Leet Code Problems</h2>
+<h1>💻CS545 Extra Credit</h1>
+<h2>📚Extra credit 1: Leet Code Problems</h2>
 <ol>
   <li>1351. Count Negative Numbers in a Sorted Matrix</li>
   <li>1859. Sorting the Sentence</li>
