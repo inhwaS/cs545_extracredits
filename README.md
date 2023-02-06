@@ -7,6 +7,5 @@
 </ol>
 <br/>
 
-<hr/>
 <h1>LeetCode Status</h1>
 ![Leetcode Stats](https://leetcard.jacoblin.cool/JacobLinCool)
