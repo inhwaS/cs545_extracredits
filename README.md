@@ -6,6 +6,11 @@
   <li><a href="https://leetcode.com/problems/sort-the-people/">2418.</a> Sort the People</li>
 </ol>
 <br/>
+<h2>📚 <a href="https://usfca.instructure.com/courses/1611772/assignments/7292048">Extra credit 2: Leet Code Problems</a></h2>
+<ol>
+  <li><a href="https://leetcode.com/problems/maximum-units-on-a-truck/">1710.</a> Maximum Units on a Truck</li>
+</ol>
+<br/>
 
 <h1>LeetCode Status</h1>
 <div>
