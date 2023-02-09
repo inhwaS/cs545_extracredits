@@ -31,7 +31,34 @@ public class ExtraCredit2 {
             }
         }
         return nums;
+        /* Time Complexity : O(n) */
 
+    }
+
+    /**
+     * 1051. Height Checker
+     * https://leetcode.com/problems/height-checker/
+     */
+    public int heightChecker(int[] heights) {
+        int[] original = new int[heights.length];
+
+        // I need to copy every value because assigning to new int will copy by reference
+        for (int i  = 0 ; i < heights.length; i++) {
+            original[i] = heights[i];
+        }
+
+        // sort the height in non-decreasing order
+        Arrays.sort(heights);
+
+        int diffCnt = 0;
+        for (int i = 0 ; i < heights.length; i++) {
+            if ( heights[i] != original[i]){
+                diffCnt++;
+            }
+        }
+
+        return diffCnt;
+        /* Time Complexity : O(n) */
     }
 
 }
