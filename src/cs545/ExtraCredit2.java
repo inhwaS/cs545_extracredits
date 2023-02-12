@@ -1,7 +1,8 @@
 package cs545;
 
-import java.util.Arrays;
-import java.util.HashMap;
+import java.lang.reflect.Array;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class ExtraCredit2 {
 
@@ -56,8 +57,57 @@ public class ExtraCredit2 {
                 diffCnt++;
             }
         }
-
         return diffCnt;
+        /* Time Complexity : O(n) */
+    }
+
+    /**
+     * 349. Intersection of Two Arrays
+     * https://leetcode.com/problems/intersection-of-two-arrays/
+     */
+    public int[] intersection(int[] nums1, int[] nums2) {
+
+        // Declare Set to remove duplicates from int arrays
+        Set<Integer> sNum1 = new HashSet<>();
+        Set<Integer> sNum2 = new HashSet<>();
+
+        for (int i : nums1) {
+            sNum1.add(i);
+        }
+
+        for (int i : nums2) {
+            sNum2.add(i);
+        }
+
+        // Declare output set to remove duplicate
+        Set<Integer> output = new HashSet<>();
+
+        // Check the size of sets
+        if ( sNum1.size() > sNum2.size() ){
+            // Iterate bigger set check if the smaller set contains the value
+            for (Integer integer : sNum2) {
+                if ( sNum1.contains(integer) ){
+                    output.add(integer);
+                }
+            }
+        }else{
+            // Iterate bigger set check if the smaller set contains the value
+            for (Integer integer : sNum1) {
+                if ( sNum1.contains(integer) ){
+                    output.add(integer);
+                }
+            }
+        }
+
+        // return type should be int[]
+        int[] arr = new int[output.size()];
+        int idx = 0;
+        for (Integer value : output) {
+            arr[idx] = value;
+            idx++;
+        }
+
+        return arr;
         /* Time Complexity : O(n) */
     }
 
