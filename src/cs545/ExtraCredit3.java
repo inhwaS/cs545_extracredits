@@ -40,7 +40,7 @@ public class ExtraCredit3 {
         }
 
         return (max1 * max2) - (min1 * min2);
-        /* Time complexity : O(n) */
+        /* Time Complexity : O(N*logN) - sorting by Array.sort() takes n*logN */
     }
 
 
@@ -53,10 +53,14 @@ public class ExtraCredit3 {
 
         int sum = 0;
         for (int i = 0 ; i < nums.length; i = i + 2) {
-            sum += Math.min( nums[i], nums[i+1]);
+            // figured out that I do not need to compare again if it is already sorted!!
+//            sum += Math.min( nums[i], nums[i+1]);
+
+            sum += nums[i];
         }
 
         return sum;
+        /* Time Complexity : O(n*logN) */
 
     }
 
