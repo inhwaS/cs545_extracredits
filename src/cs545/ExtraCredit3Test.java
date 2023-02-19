@@ -19,4 +19,9 @@ class ExtraCredit3Test {
                 extraCredit3.arrayPairSum(new int[]{6,2,6,5,1,2})
         );
     }
+
+    @Test
+    void answerQueries() {
+        extraCredit3.answerQueries(new int[]{4,5,2,1}, new int[]{3,10,21});
+    }
 }
