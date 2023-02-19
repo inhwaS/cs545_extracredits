@@ -72,15 +72,15 @@ public class ExtraCredit3 {
     public int[] answerQueries(int[] nums, int[] queries) {
         int[] rtn = new int[queries.length];
         // Sort given values first
-        Arrays.sort(nums);
+        Arrays.sort(nums); /* runs n*logN times */
 
-        for(int i = 0 ; i < queries.length; i++ ){
+        for(int i = 0 ; i < queries.length; i++ ){ /* runs m(queries.length) times */
             // set target number first
             int diff = queries[i];
 
             // count for  index passed from nums array
             int cnt = 0;
-            for(int j = 0; j < nums.length; j++ ){
+            for(int j = 0; j < nums.length; j++ ){ /* runs n(nums.length) times */
 
                 // still need to check next value from nums array
                 if ( diff >= nums[j] ){
@@ -97,7 +97,7 @@ public class ExtraCredit3 {
         }
 
         return rtn;
-        /* Time Complexity : O(n*longN)*/
+        /* Time Complexity : O(m*n + n*logN )*/
     }
 
 }
