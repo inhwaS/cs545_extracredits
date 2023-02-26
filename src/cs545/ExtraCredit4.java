@@ -64,4 +64,46 @@ public class ExtraCredit4 {
     }
 
 
+    /**
+     * 2089. Find Target Indices After Sorting Array
+     * https://leetcode.com/problems/find-target-indices-after-sorting-array/
+     */
+    public List<Integer> targetIndices(int[] nums, int target) {
+
+        // This was my first solution
+//        Arrays.sort(nums);
+//
+//        List<Integer> out = new ArrayList<>();
+//        for (int i = 0 ; i < nums.length ; i++) {
+//            if ( nums[i] == target ){
+//                out.add(i);
+//            }
+//        }
+//        return out;
+
+        // I figured out that I do not need to sort array
+        // These are better algorithm as solution
+        int smaller = 0;
+        int equal = 0;
+        // Here, we need to count how many numbers are same to target,
+        //                    and how many are smaller than the target
+        for (int num : nums) {
+            if (num < target) {
+                smaller++;
+            } else if (num == target) {
+                equal++;
+            }
+        }
+        List<Integer> indices = new ArrayList<>(equal);
+
+        // start from smaller than count, to smaller+equal count
+        // smaller count == start of equal count
+        for (int i = smaller; i < smaller + equal; i++) {
+            indices.add(i);
+        }
+        return indices;
+
+    }
+
+
 }

@@ -21,4 +21,8 @@ class ExtraCredit4Test {
         extraCredit4.sortArrayByParityII(new int[]{3,0,4,0,2,1,3,1,3,4});
     }
 
+    @Test
+    void targetIndices() {
+        extraCredit4.targetIndices(new int[]{1,2,5,2,3}, 3);
+    }
 }
