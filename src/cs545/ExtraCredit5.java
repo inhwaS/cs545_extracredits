@@ -54,6 +54,29 @@ public class ExtraCredit5 {
     }
 
 
+    /**
+     * 876. Middle of the Linked List
+     * https://leetcode.com/problems/middle-of-the-linked-list/
+     */
+    public ListNode middleNode(ListNode head) {
+
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while ( fast != null && fast.next != null ){
+            // fast goes 2 steps every time
+            fast = fast.next.next;
+
+            // fast goes 1 step every time
+            slow = slow.next;
+        }
+
+        // If there is n elements, fast reaches at the end at n/2 round
+        //      which means slow is at n/2 position
+        return slow;
+
+    }
+
     public static class ListNode {
         int val;
         ListNode next;
