@@ -20,6 +20,13 @@
     <li><a href="https://leetcode.com/problems/longest-subsequence-with-limited-sum/">2389.</a> Longest Subsequence With Limited Sum</li>
 </ol>
 <br/>
+<h2>📚 <a href="https://usfca.instructure.com/courses/1611772/assignments/7295491">Extra credit 4: Leet Code Problems</a></h2>
+<ol>
+  <li><a href="https://leetcode.com/problems/merge-similar-items/">2363.</a> Merge Similar Items</li>
+  <li><a href="https://leetcode.com/problems/sort-array-by-parity-ii/">922.</a> Sort Array By Parity II</li>
+    <li><a href="https://leetcode.com/problems/find-target-indices-after-sorting-array/">2089.</a> Find Target Indices After Sorting Array</li>
+</ol>
+<br/>
 
 <h1>LeetCode Status</h1>
 <div>
