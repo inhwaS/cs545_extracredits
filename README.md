@@ -34,6 +34,13 @@
     <li><a href="https://leetcode.com/problems/middle-of-the-linked-list/">876.</a> Middle of the Linked List</li>
 </ol>
 <br/>
+<h2>📚 <a href="https://usfca.instructure.com/courses/1611772/assignments/7298325#submit">Extra credit 6: Leet Code Problems</a></h2>
+<ol>
+  <li><a href="https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/">1614.</a> Maximum Nesting Depth of the Parentheses</li>
+  <li><a href="https://leetcode.com/problems/remove-outermost-parentheses/">1021.</a> Remove Outermost Parentheses</li>
+    <li><a href="https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/">1700.</a> Number of Students Unable to Eat Lunch</li>
+</ol>
+<br/>
 <h1>LeetCode Status</h1>
 <div>
     <img id="preview" src="https://leetcard.jacoblin.cool/soninhwa94?theme=light&font=Fira%20Code">
