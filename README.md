@@ -27,7 +27,13 @@
     <li><a href="https://leetcode.com/problems/find-target-indices-after-sorting-array/">2089.</a> Find Target Indices After Sorting Array</li>
 </ol>
 <br/>
-
+<h2>📚 <a href="https://usfca.instructure.com/courses/1611772/assignments/7297138">Extra credit 5: Leet Code Problems</a></h2>
+<ol>
+  <li><a href="https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/">2160.</a> Minimum Sum of Four Digit Number After Splitting Digits</li>
+  <li><a href="https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/">1290.</a> Convert Binary Number in a Linked List to Integer</li>
+    <li><a href="https://leetcode.com/problems/middle-of-the-linked-list/">876.</a> Middle of the Linked List</li>
+</ol>
+<br/>
 <h1>LeetCode Status</h1>
 <div>
     <img id="preview" src="https://leetcard.jacoblin.cool/soninhwa94?theme=light&font=Fira%20Code">
